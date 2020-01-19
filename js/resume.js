@@ -26,3 +26,19 @@
   });
 
 })(jQuery); // End of use strict
+
+
+// Hover effect for marathi 
+var text = ["Marathi", "मराठी"];
+var elem1 = $("#language1");
+var elem2 = $('#language2');
+var hoverelem = $('#sideNav');
+var hoverelem2 = $('#whitespace')
+elem1.html(text[1]);
+elem2.html(text[0]);
+elem2.hide();
+elem1.hover(function(){
+    elem1.hide();
+    elem2.fadeIn(1500);
+});
+
