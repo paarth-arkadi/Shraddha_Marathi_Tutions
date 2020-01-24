@@ -29,7 +29,7 @@
 
 
 // Hover effect for marathi 
-var text = ["Marathi", "मराठी"];
+/*var text = ["Marathi", "मराठी"];
 var elem1 = $("#language1");
 var elem2 = $('#language2');
 var hoverelem = $('#sideNav');
@@ -41,4 +41,4 @@ elem1.hover(function(){
     elem1.hide();
     elem2.fadeIn(1500);
 });
-
+*/

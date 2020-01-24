@@ -16,10 +16,11 @@
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+      
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">  
+  <link href="css/resume.css" rel="stylesheet">  
       
 </head>
 
@@ -63,18 +64,33 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">  
-        <div class="counter">1,234,567</div >  
-        <h1 class="mb-0">Shraddha's
-            <a href="#">  <span class="text-primary" id='language1'></span></a>
-            <a href="#" >  <span class="text-primary" id='language2'></span></a>
+        <h1 class="mb-0" style="text-transform: capitalize; font-family:'satisfy'">Shraddha's
+            <span class="text-primary" id='language1' style="font-family:'satisfy';text-decoration: line-through;" >Marathi</span>
+            <span class="text-primary" id='language1' style="font-family:'satisfy';" >मराठी</span>
+            <span class="text-primary" id='language2'></span>
           <span>Tutions</span>
         </h1>
-        <div class="subheading mb-5">Classes For All Age Groups.
-          <a href="mailto:name@email.com">Online & Offline Personalised Coaching</a>
+        <div class="subheading mb-5">Classes For All Age Groups |
+          <a href="#">Online & Offline Coaching |</a>
+          Decent Fee Structure
         </div>
+        <div class="card display-counter">
+            <div class="card-body align-items-center">
+                <h5 class="card-title counter-text"><span class="counter">700</span>+ </h5>
+                <p class="card-title">Students Taught</p>
+            </div>
+        </div>      
+        <div class="card display-counter">
+            <div class="card-body align-items-center">
+                <h5 class="card-title counter-text"><span class="counter">22</span>+ years</h5>
+                <p class="card-text">Teaching Experience</p>
+            </div>
+        </div>  
+        <!-- Description not required   
         <p class="lead mb-5">I have been teaching Marathi for students of all age groups from 22 years. I provide 
           provide Marathi Coaching to students according to their requirements. Currently I reside in Mumbai
           and provide coaching through classes and online</p>
+        -->
         <div class="social-icons">      
           <a href="#">
             <i class="fab fa-youtube"></i>
@@ -89,10 +105,10 @@
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
-        <a href="https://www.urbanpro.com/mumbai/shraddha-a?_r=widgets|UrbanProBadge|UrbanPro Recommended|336x132|1534256" target="_blank" style="display: inline-block;"><img src="https://www.urbanpro.com/assets/new-ui/badges/UrbanPro Recommended@336x132.png" alt="UrbanPro Recommended" style="max-width: 80%;"></a>
+        <a href="https://www.urbanpro.com/mumbai/shraddha-a?_r=widgets|UrbanProBadge|UrbanPro Recommended|336x132|1534256" target="_blank" style="display: inline-block;"><img src="https://www.urbanpro.com/assets/new-ui/badges/UrbanPro Recommended@336x132.png" alt="UrbanPro Recommended" style="max-width:18rem;"></a>
       </div>  
       <a class="nav-link js-scroll-trigger" style="text-decoration:none;position:absolute;display: inline-block;
-      bottom:20px;right:20px;" id="scroll-down" href="#experience"><i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i></a>  
+      bottom:20px;right:20px;border:0.1rem solid #BD5D38; border-radius:100%;" id="scroll-down" href="#experience"><i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i></a>  
     </section> 
      
     <hr class="m-0">
@@ -303,14 +319,8 @@
   <!-- Counter -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
   <script src="js/jquery.counterup.js"></script>      
-  <script>
-        jQuery(document).ready(function($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
-        });
-    </script>
+  <script src="js/myupcounter.js"></script>
+    
 </body>
 
 </html>
